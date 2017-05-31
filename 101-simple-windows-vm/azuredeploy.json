@@ -26,6 +26,17 @@
         "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
       }
     },
+    "location": {
+      "type": "string",
+      "defaultValues": "West US",
+      "allowedValues": [
+        "West US",
+        "East US 2"
+      ],
+      "metadata": {
+        "description": "restricts choices of location"
+      }
+      },
     "windowsOSVersion": {
       "type": "string",
       "defaultValue": "2012-R2-Datacenter",
